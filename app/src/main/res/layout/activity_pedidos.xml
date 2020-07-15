@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PedidosActivity"
+    android:background="#ffffff"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/fotoperfil"
+                android:layout_width="180dp"
+                android:layout_height="380px"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_gravity="center"
+                app:civ_border_color="#68e5bc"
+                app:civ_border_width="2dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/nombrecomplete"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="16dp"
+                android:text="Nombre completo"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/span_name"
+                />
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:text="SALIR"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_exit"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                tools:ignore="MissingPrefix">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="16dp"
+                android:text="LISTA DE REPARTOS"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                />
+            <ScrollView
+                android:id="@+id/scrollView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="DuplicateIds,MissingConstraints"
+                android:padding="0dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:id="@+id/lview"
+                        android:layout_width="match_parent"
+                        android:layout_height="380dp"
+                        tools:layout_editor_absoluteX="8dp"
+                        tools:layout_editor_absoluteY="8dp"
+                        />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+</RelativeLayout>

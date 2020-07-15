@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:padding="15dp">
+        <ImageView
+            android:layout_marginTop="18dp"
+            android:id="@+id/imageView"
+            android:layout_width="95dp"
+            android:layout_height="115dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvidpedido"
+            android:text="ID PEDIDO"
+            android:background="@drawable/span_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#ffffff"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/tvprofilename"
+            android:text="NOMBRE CLIENTE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="19dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#2b333e"
+            android:textSize="14dp" />
+
+        <TextView
+            android:text="DNI:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="39dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#2b333e"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/tvdni"
+            android:text="NUMERO DE DNI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="39dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#2b333e"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/tvhora"
+            android:text="HORA DE PEDIDO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="58dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#2b333e"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:text="CEL:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="78dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#2b333e"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/tvemail"
+            android:text="CELULAR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="78dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#2b333e"
+            android:textSize="14dp" />
+        <TextView
+            android:text="MAPA:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="98dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#2b333e"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/tvlatlon"
+            android:text="LAT_LON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="69dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="98dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#2b333e"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/tvestado"
+            android:background="@drawable/span_danger"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="ESTADO DEL PEDIDO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="130dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#ffffff"
+            android:textSize="14dp" />
+    </RelativeLayout>
+</LinearLayout>
